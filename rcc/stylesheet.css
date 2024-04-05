@@ -1,0 +1,93 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.background-image {
+    /* Set the background image properties */
+    background-image: url('C:\Users\everr\OneDrive - Everrenew Energy Private Limited\WEB DESIGN\rcc project\img\Untitled design.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    /* Set the height of the container */
+    height: 100vh;
+
+    /* Center the content inside the container */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* Optional: Add some styling to your content */
+    color: #fff;
+    text-align: center;
+}
+.main-nav {
+    background-color:#00FA9A;
+    color: black;
+     WIDTH:100%;
+      padding: 8px;
+}
+
+  .header {
+    padding: 5px;
+    text-align: RIGHT;
+    background: BLACK;
+    color: white;
+  
+  }
+ 
+
+
+/* styles.css */
+
+/* Style the custom table */
+.custom-table
+{
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 1;
+    background-color: #f8f9fa;
+
+    
+}
+
+.custom-table th 
+{
+    background-color: black;
+    color: #ffffff;
+}
+
+.custom-table td
+{
+    border: 1px solid #dddddd;
+    padding: 3px;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+.custom-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+nav
+{
+    padding: 5 px;
+    background-color:#3CB371;
+    overflow: hidden;
+    color: WHITE;
+   margin-top: 10px;
+   font-size: 15PX;
+  line-height: 20px;
+  font-weight: bold;
+   
+   
+  }
+    nav a{
+        float: left;
+        display: block;
+        color: WHITE;
+        text-align: CENTER;
+        text-decoration: none;
+        height: 100px;
+    }
